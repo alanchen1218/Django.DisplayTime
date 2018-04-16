@@ -1,0 +1,13 @@
+.head{
+    border: 2px solid black;
+    width: 200px;
+    margin-left: 200px;
+    padding: 10px 50px;
+}
+.time{
+    border: 2px solid black;
+    width: 300px;
+    margin-left: 100px;
+    padding: 10px 50px;
+    padding-left:150px;
+}

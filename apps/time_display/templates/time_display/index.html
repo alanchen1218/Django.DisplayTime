@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display Time</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'time_display/style.css' %}">
+</head>
+<body>
+    <h3 class = "head">This is the current time: </h3>
+    <h1 class = "time">
+        {% if datetime %}
+            {% for x in datetime %}
+                <p>{{x.date}}</p>
+                <p>{{x.time}}</p>
+            {% endfor %}
+        {% endif %}
+    </h1>
+</body>
+</html>
